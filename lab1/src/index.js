@@ -13,13 +13,13 @@ root.render(
             integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
             crossOrigin="anonymous"
         />
-        <script src="https://unpkg.com/react/umd/react.production.min.js" crossOrigin></script>
+        <script src="https://unpkg.com/react/umd/react.production.min.js" crossOrigin="true"></script>
         <script
             src="https://unpkg.com/react-dom/umd/react-dom.production.min.js"
-            crossOrigin></script>
+            crossOrigin="true"></script>
         <script
             src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js"
-            crossOrigin></script>
+            crossOrigin="true"></script>
         <App/>
     </React.StrictMode>
 );
