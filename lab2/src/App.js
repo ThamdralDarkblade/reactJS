@@ -1,9 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
-import {MyCounter} from "./MyCounter";
-import {CounterList} from "./CounterList";
-import {Cart} from "./Cart";
-import {Game} from "./Game";
+import {MyCounter} from "./components/MyCounter";
+import {CounterList} from "./components/CounterList";
+import {Cart} from "./components/Cart";
+import {Game} from "./components/Game";
 
 const counters = [
   {id: 1, initial:6, min: -5, max:10},
